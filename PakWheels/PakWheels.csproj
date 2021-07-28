@@ -58,6 +58,12 @@
     <Compile Include="buy.Designer.cs">
       <DependentUpon>buy.cs</DependentUpon>
     </Compile>
+    <Compile Include="buyConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buyConfirm.Designer.cs">
+      <DependentUpon>buyConfirm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="buy.resx">
       <DependentUpon>buy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buyConfirm.resx">
+      <DependentUpon>buyConfirm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -70,7 +70,14 @@ namespace PakWheels
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Do you want to exit?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Error) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                MessageBox.Show("Welcome back", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }
