@@ -70,11 +70,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Blog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blog.Designer.cs">
+      <DependentUpon>Blog.cs</DependentUpon>
+    </Compile>
     <Compile Include="inspect.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inspect.Designer.cs">
       <DependentUpon>inspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectionConfirm.Designer.cs">
+      <DependentUpon>InspectionConfirm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +102,12 @@
     <Compile Include="sell.Designer.cs">
       <DependentUpon>sell.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blog.resx">
+      <DependentUpon>Blog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="buy.resx">
       <DependentUpon>buy.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="inspect.resx">
       <DependentUpon>inspect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InspectionConfirm.resx">
+      <DependentUpon>InspectionConfirm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

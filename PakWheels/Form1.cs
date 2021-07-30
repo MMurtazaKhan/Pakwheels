@@ -79,5 +79,11 @@ namespace PakWheels
                 MessageBox.Show("Welcome back", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Blog bl = new Blog();
+            bl.Show();
+        }
     }
 }
