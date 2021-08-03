@@ -32,37 +32,12 @@ namespace PakWheels
         {
 
         }
-        string x;
+
         public void button3_Click(object sender, EventArgs e)
         {
-           
-
-            /*Label head = new Label();
-            head.Location = new Point(342, 76);
-            head.Text = "Vehicles Data";
-            head.Font = new Font("Times New Roman", 20);
-            head.BackColor = Color.Transparent;
-            head.ForeColor = Color.Blue;
-            head.Size = new Size(395, 35);
-            this.Controls.Add(head);*/
 
             string[] vehicles = {"Car", "Bike", "Rickshaw", "Commercial Vehicles", "Other" };
             type.Items.AddRange(vehicles);
-            /*ComboBox type = new ComboBox();
-            type.Location = new Point(562, 100);
-            this.Controls.Add(type);
-
-            Button search = new Button();
-            search.Size = new Size(97, 34);
-            search.Location = new Point(749, 90);
-            search.Text = "Search";
-            this.Controls.Add(search);
-            EventHandler search_Click = null;
-            search.Click += new EventHandler(search_Click);
-
-            Button dynamicButton = new Button();*/
-
-            x = "Sell";
 
 
         SqlConnection con = new SqlConnection();
@@ -83,7 +58,7 @@ namespace PakWheels
 
         public void button1_Click(object sender, EventArgs e)
         {
-            x = "Repair";
+         
             this.Controls.Remove(type);
             this.Controls.Remove(search);
             SqlConnection con = new SqlConnection();
@@ -101,7 +76,7 @@ namespace PakWheels
 
         public void button4_Click(object sender, EventArgs e)
         {
-            x = "InspectData";
+          
             this.Controls.Remove(type);
             this.Controls.Remove(search);
             SqlConnection con = new SqlConnection();
@@ -144,11 +119,17 @@ namespace PakWheels
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             dataGridView1.RowTemplate.Height = 100;
-            cmd.CommandText = "Delete from '" + x + "' where ID = '" + Convert.ToInt32(textID.Text) + "'";
+            cmd.CommandText = "Delete from " + labeldatabase.Text + " where ID = '" + Convert.ToInt32(textID.Text) + "'";
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Record deleted");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddBlog ab = new AddBlog();
+            ab.Show();
         }
     }
 }

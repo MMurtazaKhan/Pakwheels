@@ -41,10 +41,19 @@ namespace PakWheels
         }
         private void buttonBuy_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            buyConfirm buyC = new buyConfirm();
-            buyC.Show();
+            if (MessageBox.Show("Are you Signed in?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                buyConfirm buyC = new buyConfirm();
+                buyC.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please Sign Up", "Sign Up", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
+        
+
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             dataGridView1.RowTemplate.Height = 100;

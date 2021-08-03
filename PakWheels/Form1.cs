@@ -64,8 +64,8 @@ namespace PakWheels
 
         private void buttonAdmin_Click(object sender, EventArgs e)
         {
-            admin ad = new admin();
-            ad.Show();
+            login log = new login();
+            log.Show();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -84,6 +84,12 @@ namespace PakWheels
         {
             Blog bl = new Blog();
             bl.Show();
+        }
+
+        private void buttonSign_Click(object sender, EventArgs e)
+        {
+            signup sign = new signup();
+            sign.Show();
         }
     }
 }
