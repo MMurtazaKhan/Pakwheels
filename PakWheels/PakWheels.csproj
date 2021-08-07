@@ -70,6 +70,12 @@
     <Compile Include="buyConfirm.Designer.cs">
       <DependentUpon>buyConfirm.cs</DependentUpon>
     </Compile>
+    <Compile Include="contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact.Designer.cs">
+      <DependentUpon>contact.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,12 @@
     <Compile Include="signup.Designer.cs">
       <DependentUpon>signup.cs</DependentUpon>
     </Compile>
+    <Compile Include="User_Rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Rent.designer.cs">
+      <DependentUpon>User_Rent.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddBlog.resx">
       <DependentUpon>AddBlog.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="buyConfirm.resx">
       <DependentUpon>buyConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact.resx">
+      <DependentUpon>contact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -164,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Rent.resx">
+      <DependentUpon>User_Rent.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

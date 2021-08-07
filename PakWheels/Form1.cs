@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using car_app;
 
 namespace PakWheels
 {
@@ -90,6 +91,18 @@ namespace PakWheels
         {
             signup sign = new signup();
             sign.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            contact con = new contact();
+            con.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            User_Rent ur = new User_Rent();
+            ur.Show();
         }
     }
 }

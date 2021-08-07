@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PakWheels
 {
@@ -46,6 +47,23 @@ namespace PakWheels
             }
         }
 
-      
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/user/Pakwheels");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/pakwheels");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Process.Start("https://www.instagram.com/pakwheels/");
+        }
     }
-}
+
+    
+    }
+

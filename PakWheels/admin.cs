@@ -131,5 +131,10 @@ namespace PakWheels
             AddBlog ab = new AddBlog();
             ab.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

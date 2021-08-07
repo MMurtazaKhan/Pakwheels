@@ -41,6 +41,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.buttonSign = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -181,6 +182,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "Contact Us";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button6
             // 
@@ -204,13 +206,28 @@
             this.buttonSign.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSign.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSign.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonSign.Location = new System.Drawing.Point(747, 450);
+            this.buttonSign.Location = new System.Drawing.Point(1026, 12);
             this.buttonSign.Name = "buttonSign";
-            this.buttonSign.Size = new System.Drawing.Size(125, 92);
+            this.buttonSign.Size = new System.Drawing.Size(154, 55);
             this.buttonSign.TabIndex = 12;
             this.buttonSign.Text = "Sign Up";
             this.buttonSign.UseVisualStyleBackColor = false;
             this.buttonSign.Click += new System.EventHandler(this.buttonSign_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Silver;
+            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button7.Location = new System.Drawing.Point(747, 450);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(132, 86);
+            this.button7.TabIndex = 13;
+            this.button7.Text = "Rent a Car";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
@@ -219,6 +236,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1270, 554);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.buttonSign);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button2);
@@ -255,6 +273,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button buttonSign;
+        private System.Windows.Forms.Button button7;
     }
 }
 
