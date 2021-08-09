@@ -45,6 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.labeldatabase = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -75,6 +76,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Tan;
+            this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button4);
@@ -94,7 +96,7 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(22, 282);
+            this.button5.Location = new System.Drawing.Point(22, 374);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(144, 86);
             this.button5.TabIndex = 8;
@@ -108,7 +110,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(22, 374);
+            this.button2.Location = new System.Drawing.Point(22, 472);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(144, 86);
             this.button2.TabIndex = 7;
@@ -245,6 +247,21 @@
             this.labeldatabase.Size = new System.Drawing.Size(0, 13);
             this.labeldatabase.TabIndex = 28;
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Silver;
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.Location = new System.Drawing.Point(22, 282);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(144, 86);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Rent a Car";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // admin
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
@@ -296,5 +313,6 @@
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Label labeldatabase;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

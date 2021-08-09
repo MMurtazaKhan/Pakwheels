@@ -1,4 +1,5 @@
-﻿using System;
+﻿using car_app;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -126,15 +127,25 @@ namespace PakWheels
             MessageBox.Show("Record deleted");
         }
 
+         AddBlog ab = new AddBlog();
         private void button5_Click(object sender, EventArgs e)
         {
-            AddBlog ab = new AddBlog();
             ab.Show();
+        }
+
+         Admin_Rent ar = new Admin_Rent();
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ar.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
+            ab.Hide();
+            ar.Hide();
+            
         }
+
     }
 }
