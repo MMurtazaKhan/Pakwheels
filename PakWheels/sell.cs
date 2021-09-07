@@ -104,5 +104,10 @@ namespace PakWheels
                 comboBoxManuf.Items.AddRange(other);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

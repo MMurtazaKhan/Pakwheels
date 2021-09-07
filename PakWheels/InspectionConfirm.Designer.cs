@@ -41,16 +41,19 @@
             this.dateTimeSchedule = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(43, 268);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 31);
+            this.label3.Size = new System.Drawing.Size(105, 30);
             this.label3.TabIndex = 21;
             this.label3.Text = "Address";
             // 
@@ -81,21 +84,22 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 24F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label1.Location = new System.Drawing.Point(226, 48);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(235, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(316, 41);
+            this.label1.Size = new System.Drawing.Size(371, 41);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Enter Details Below";
+            this.label1.Text = "Get your Car Inspected\r\n";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(47, 201);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 31);
+            this.label4.Size = new System.Drawing.Size(112, 30);
             this.label4.TabIndex = 22;
             this.label4.Text = "Contact";
             // 
@@ -103,10 +107,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(47, 129);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 31);
+            this.label5.Size = new System.Drawing.Size(87, 30);
             this.label5.TabIndex = 23;
             this.label5.Text = "Name";
             // 
@@ -126,10 +131,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(386, 129);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(207, 31);
+            this.label6.Size = new System.Drawing.Size(212, 30);
             this.label6.TabIndex = 24;
             this.label6.Text = "Engine Capacity";
             // 
@@ -144,10 +150,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(386, 201);
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
+            this.label7.Location = new System.Drawing.Point(406, 201);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(123, 31);
+            this.label7.Size = new System.Drawing.Size(125, 30);
             this.label7.TabIndex = 27;
             this.label7.Text = "Schedule";
             // 
@@ -155,14 +162,24 @@
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(333, 365);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 37);
+            this.button1.Size = new System.Drawing.Size(154, 43);
             this.button1.TabIndex = 28;
             this.button1.Text = "Send";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(-23, -46);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(825, 124);
+            this.panel1.TabIndex = 29;
             // 
             // InspectionConfirm
             // 
@@ -170,6 +187,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 478);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimeSchedule);
@@ -181,10 +199,11 @@
             this.Controls.Add(this.textAddress);
             this.Controls.Add(this.textContact);
             this.Controls.Add(this.textName);
-            this.Controls.Add(this.label1);
             this.Name = "InspectionConfirm";
             this.Text = "InspectionConfirm";
             this.Load += new System.EventHandler(this.InspectionConfirm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,5 +223,6 @@
         private System.Windows.Forms.DateTimePicker dateTimeSchedule;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

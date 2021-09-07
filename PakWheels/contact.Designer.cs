@@ -40,9 +40,9 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -55,18 +55,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 26.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
-                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(474, 9);
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(385, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 45);
+            this.label1.Size = new System.Drawing.Size(235, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "Contact Us";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Coral;
+            this.panel2.BackColor = System.Drawing.Color.DarkKhaki;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -173,15 +173,16 @@
             this.panel1.Size = new System.Drawing.Size(276, 466);
             this.panel1.TabIndex = 11;
             // 
-            // button1
+            // richTextBox1
             // 
-            this.button1.Location = new System.Drawing.Point(66, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 41);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Location";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.richTextBox1.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.richTextBox1.Location = new System.Drawing.Point(3, 217);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(261, 119);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = "Feel free to drop by or call to say Hello!\nMonday-Saturday\n10:00am-07:00pm";
             // 
             // pictureBox5
             // 
@@ -193,21 +194,25 @@
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             // 
-            // richTextBox1
+            // button1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.richTextBox1.Location = new System.Drawing.Point(3, 198);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(261, 178);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "Feel free to drop by or call to say Hello!\nMonday-Saturday\n10:00am-07:00pm";
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Castellar", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(45, 375);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 41);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Location";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // contact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1269, 537);
             this.Controls.Add(this.panel1);

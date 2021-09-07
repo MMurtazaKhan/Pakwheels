@@ -133,7 +133,7 @@ namespace PakWheels
             ab.Show();
         }
 
-         Admin_Rent ar = new Admin_Rent();
+          Admin_Rent ar = new Admin_Rent();
         private void button6_Click(object sender, EventArgs e)
         {
             ar.Show();

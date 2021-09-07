@@ -48,8 +48,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Thistle;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(23, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 24);
@@ -59,8 +59,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Thistle;
-            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 217);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 24);
@@ -77,8 +77,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Thistle;
-            this.label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(55, 337);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 24);
@@ -107,7 +107,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(229, 277);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(349, 223);
+            this.pictureBox1.Size = new System.Drawing.Size(383, 223);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -115,8 +115,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Thistle;
-            this.label5.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(420, 123);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(153, 24);
@@ -126,8 +126,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Thistle;
-            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(420, 213);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(192, 24);
@@ -150,12 +150,12 @@
             // 
             // button_browse
             // 
-            this.button_browse.BackColor = System.Drawing.Color.Violet;
-            this.button_browse.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_browse.ForeColor = System.Drawing.Color.Yellow;
+            this.button_browse.BackColor = System.Drawing.Color.Olive;
+            this.button_browse.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_browse.ForeColor = System.Drawing.Color.Black;
             this.button_browse.Location = new System.Drawing.Point(57, 411);
             this.button_browse.Name = "button_browse";
-            this.button_browse.Size = new System.Drawing.Size(75, 34);
+            this.button_browse.Size = new System.Drawing.Size(113, 43);
             this.button_browse.TabIndex = 15;
             this.button_browse.Text = "Browse";
             this.button_browse.UseVisualStyleBackColor = false;
@@ -164,11 +164,13 @@
             // button_save
             // 
             this.button_save.BackColor = System.Drawing.Color.Blue;
-            this.button_save.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_save.ForeColor = System.Drawing.Color.Yellow;
-            this.button_save.Location = new System.Drawing.Point(695, 411);
+            this.button_save.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button_save.BackgroundImage")));
+            this.button_save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_save.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_save.ForeColor = System.Drawing.Color.Black;
+            this.button_save.Location = new System.Drawing.Point(695, 401);
             this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(75, 34);
+            this.button_save.Size = new System.Drawing.Size(124, 44);
             this.button_save.TabIndex = 16;
             this.button_save.Text = "Save";
             this.button_save.UseVisualStyleBackColor = false;

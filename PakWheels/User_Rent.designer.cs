@@ -60,9 +60,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Tan;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 5);
+            this.panel1.Location = new System.Drawing.Point(1, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1417, 52);
+            this.panel1.Size = new System.Drawing.Size(1417, 69);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -71,7 +71,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Algerian", 26.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(311, 4);
+            this.label1.Location = new System.Drawing.Point(409, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(321, 39);
             this.label1.TabIndex = 18;
@@ -88,13 +88,14 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(107, 115);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(91, 108);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 23);
+            this.label2.Size = new System.Drawing.Size(222, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Search By Car Type";
+            this.label2.Text = "Search By Car Made";
             // 
             // comboBox1
             // 
@@ -114,42 +115,48 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(629, 115);
+            this.button1.BackColor = System.Drawing.Color.Olive;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(596, 99);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(145, 45);
             this.button1.TabIndex = 4;
             this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.AliceBlue;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(825, 199);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(825, 201);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 21);
+            this.label3.Size = new System.Drawing.Size(75, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Name";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.AliceBlue;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(825, 277);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(783, 276);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 21);
+            this.label4.Size = new System.Drawing.Size(183, 25);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Date Of Collection ";
+            this.label4.Text = "Date Of Receive ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.AliceBlue;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(825, 243);
+            this.label5.Location = new System.Drawing.Point(878, 243);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 21);
             this.label5.TabIndex = 7;
@@ -157,22 +164,24 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.AliceBlue;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(825, 412);
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(825, 414);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 21);
+            this.label6.Size = new System.Drawing.Size(131, 25);
             this.label6.TabIndex = 8;
             this.label6.Text = "Contact no.";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.AliceBlue;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(823, 473);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(823, 475);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 21);
+            this.label7.Size = new System.Drawing.Size(66, 25);
             this.label7.TabIndex = 9;
             this.label7.Text = "CNIC";
             // 
@@ -222,22 +231,26 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.AliceBlue;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(825, 339);
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(825, 341);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 21);
+            this.label8.Size = new System.Drawing.Size(68, 25);
             this.label8.TabIndex = 15;
             this.label8.Text = "Need";
             // 
             // but_save
             // 
             this.but_save.BackColor = System.Drawing.Color.Blue;
-            this.but_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_save.ForeColor = System.Drawing.Color.Yellow;
+            this.but_save.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_save.BackgroundImage")));
+            this.but_save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.but_save.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.but_save.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_save.ForeColor = System.Drawing.Color.Black;
             this.but_save.Location = new System.Drawing.Point(896, 604);
             this.but_save.Name = "but_save";
-            this.but_save.Size = new System.Drawing.Size(84, 30);
+            this.but_save.Size = new System.Drawing.Size(129, 44);
             this.but_save.TabIndex = 16;
             this.but_save.Text = "Save";
             this.but_save.UseVisualStyleBackColor = false;
@@ -254,12 +267,13 @@
             // 
             // but_amount
             // 
-            this.but_amount.BackColor = System.Drawing.Color.BlueViolet;
-            this.but_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_amount.ForeColor = System.Drawing.Color.Yellow;
+            this.but_amount.BackColor = System.Drawing.Color.Olive;
+            this.but_amount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.but_amount.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_amount.ForeColor = System.Drawing.Color.Black;
             this.but_amount.Location = new System.Drawing.Point(814, 523);
             this.but_amount.Name = "but_amount";
-            this.but_amount.Size = new System.Drawing.Size(133, 30);
+            this.but_amount.Size = new System.Drawing.Size(166, 40);
             this.but_amount.TabIndex = 18;
             this.but_amount.Text = "Amount In Rs /-";
             this.but_amount.UseVisualStyleBackColor = false;
@@ -275,22 +289,24 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.AliceBlue;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(819, 128);
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(819, 130);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 21);
+            this.label9.Size = new System.Drawing.Size(139, 25);
             this.label9.TabIndex = 20;
             this.label9.Text = "ID OF A CAR";
             // 
             // butt_clear
             // 
-            this.butt_clear.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.butt_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butt_clear.ForeColor = System.Drawing.Color.Yellow;
+            this.butt_clear.BackColor = System.Drawing.Color.Maroon;
+            this.butt_clear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.butt_clear.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butt_clear.ForeColor = System.Drawing.Color.Black;
             this.butt_clear.Location = new System.Drawing.Point(1084, 604);
             this.butt_clear.Name = "butt_clear";
-            this.butt_clear.Size = new System.Drawing.Size(84, 30);
+            this.butt_clear.Size = new System.Drawing.Size(132, 44);
             this.butt_clear.TabIndex = 21;
             this.butt_clear.Text = "Clear";
             this.butt_clear.UseVisualStyleBackColor = false;

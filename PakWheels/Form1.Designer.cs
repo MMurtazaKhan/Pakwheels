@@ -49,37 +49,37 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Stencil", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(244, 15);
+            this.label1.Font = new System.Drawing.Font("Stencil", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(497, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 38);
+            this.label1.Size = new System.Drawing.Size(224, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "PakWheels";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.LemonChiffon;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(251, 12);
+            this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(659, 66);
+            this.panel1.Size = new System.Drawing.Size(1272, 79);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(251, 200);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 86);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Buy a Car";
+            this.button1.Text = "Buy a Vehicle";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -94,7 +94,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(132, 86);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Sell a Car";
+            this.button3.Text = "Sell a Vehicle";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -109,7 +109,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(132, 86);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Repair my Car";
+            this.button4.Text = "Repair";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -133,7 +133,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 196);
+            this.pictureBox1.Size = new System.Drawing.Size(246, 130);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -141,8 +141,7 @@
             // 
             // buttonAdmin
             // 
-            this.buttonAdmin.BackColor = System.Drawing.Color.Silver;
-            this.buttonAdmin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonAdmin.BackgroundImage")));
+            this.buttonAdmin.BackColor = System.Drawing.Color.Teal;
             this.buttonAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonAdmin.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -156,8 +155,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.BackColor = System.Drawing.Color.Silver;
-            this.buttonExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonExit.BackgroundImage")));
+            this.buttonExit.BackColor = System.Drawing.Color.Maroon;
             this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonExit.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -201,8 +199,7 @@
             // 
             // buttonSign
             // 
-            this.buttonSign.BackColor = System.Drawing.Color.Silver;
-            this.buttonSign.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSign.BackgroundImage")));
+            this.buttonSign.BackColor = System.Drawing.Color.Olive;
             this.buttonSign.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSign.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSign.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -248,6 +245,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
